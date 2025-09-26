@@ -1,9 +1,35 @@
-_pycache_/
-*.pyc
+# Python cache
+__pycache__/
+*.py[cod]
 *.pyo
 *.pyd
+*.pdb
+*.py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# SQLite database files
+instance/
 *.db
-.env
-.venv
+
+# Docker stuff
 *.log
+
+# OS junk
 .DS_Store
+Thumbs.db
